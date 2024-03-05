@@ -1,0 +1,72 @@
+input 1: 
+create-account#Wiro Sableng#wirsab
+create-account#Jaka Sembung#jaksem
+show-accounts
+create-account#Jaka Sembung#jaksem
+show-accounts
+create-account#Jaka Sembung#jasemb
+show-accounts
+---
+
+      
+output: 
+wirsab|Wiro Sableng|0.0
+jaksem|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+jaksem|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+jasemb|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+jasemb|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+
+wirsab|Wiro Sableng|0.0
+jaksem|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+jaksem|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+jasemb|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+jasemb|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+
+
+input2: 
+show-accounts
+create-account#Wiro Sableng#wirsab
+create-account#Jaka Sembung#jasemb
+create-account#Jaka Sembung#jaksem
+show-accounts
+create-account#Jaka Sembung#jasemb
+create-account#Milkyman#milkyn
+show-accounts
+---
+
+      
+      
+output: 
+wirsab|Wiro Sableng|0.0
+jasemb|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+jasemb|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+milkyn|Milkyman|0.0
+jaksem|Jaka Sembung|0.0
+jasemb|Jaka Sembung|0.0
+milkyn|Milkyman|0.0
+wirsab|Wiro Sableng|0.0
+
+wirsab|Wiro Sableng|0.0
+jasemb|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+jaksem|Jaka Sembung|0.0
+jasemb|Jaka Sembung|0.0
+wirsab|Wiro Sableng|0.0
+milkyn|Milkyman|0.0
+jaksem|Jaka Sembung|0.0
+jasemb|Jaka Sembung|0.0
+milkyn|Milkyman|0.0
+wirsab|Wiro Sableng|0.0
